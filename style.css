@@ -1,35 +1,145 @@
-/* Grid de Notion */
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tipografía y colores generales */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Contenedor general */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Encabezado */
+header {
+  background: #1e3c72; /* azul profesional */
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Navegación */
+nav {
+  background: #2a5298;
+}
+
+nav .container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background: #1e3c72;
+  border-radius: 5px;
+}
+
+/* Secciones */
+section {
+  margin: 40px 0;
+}
+
+section h2 {
+  color: #1e3c72;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #2a5298;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Proyectos */
+.proyecto {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.proyecto h3 {
+  margin-bottom: 10px;
+  color: #2a5298;
+}
+
+/* Notion cards */
 .notion-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: 1fr;
   gap: 20px;
 }
 
 .notion-card {
-  background-color: #fff;
+  background: #fff;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease;
-}
-
-.notion-card:hover {
-  transform: translateY(-5px);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .notion-card h3 {
-  color: #2c3e50;
   margin-bottom: 10px;
+  color: #2a5298;
 }
 
 .notion-card a {
   display: inline-block;
   margin-top: 10px;
-  color: #34495e;
-  font-weight: bold;
+  color: #1e3c72;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .notion-card a:hover {
   text-decoration: underline;
+}
+
+/* Contacto */
+#contacto p {
+  margin: 10px 0;
+}
+
+#contacto a {
+  color: #1e3c72;
+  text-decoration: none;
+}
+
+#contacto a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #1e3c72;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
 }
