@@ -3,82 +3,362 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wendy Vanessa Villalobos | Ciencia de Datos</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Wendy Vanessa Villalobos | Data Science Portfolio</title>
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="stile.css">
 </head>
+
 <body>
-  
-  <header>
-    <div class="container">
-      <h1>Wendy Vanessa Villalobos Corcho</h1>
-      <p>Ingeniera en Ciencia de Datos en formación & Aprendiz en Ciberseguridad</p>
-    </div>
-  </header>
 
 
-  <nav>
-    <div class="container">
-      <a href="#sobre-mi">Sobre mí</a>
-      <a href="#proyectos">Proyectos</a>
-      <a href="#notion">Aprendizaje</a>
-      <a href="#contacto">Contacto</a>
+  <nav class="navbar">
+
+    <div class="logo">
+      Vanessa Villalobos<span>.</span>
     </div>
+
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre mí</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#certificados">Certificados</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+
   </nav>
 
+  <!-- HERO -->
+  <section class="hero">
 
-  <main class="container">
+    <div class="hero-text">
 
-    <section id="sobre-mi">
-      <h2>Sobre mí</h2>
+      <h1>
+        Hola, soy
+        <span>Vanessa Villalobos</span>
+      </h1>
+
+      <h2>
+        Ciencia de Datos • Python • Ciberseguridad
+      </h2>
+
       <p>
-        Soy Wendy Vanessa Villalobos Corcho, estudiante de Ciencia de Datos en la Corporación Universitaria Iberoamericana (5º semestre), complementando mi formación con capacitaciones del SENA en Colombia y una ruta de aprendizaje en ciberseguridad ofrecida por Cisco.
-        Aunque estoy dando mis primeros pasos en seguridad informática, he adquirido conocimientos fundamentales en protección de sistemas y gestión de riesgos digitales. Mi enfoque principal está en la Ciencia de Datos, donde desarrollo habilidades en análisis, procesamiento y visualización de datos para apoyar la toma de decisiones.
-        Busco oportunidades que me permitan aplicar mis conocimientos en contextos reales, ganar experiencia profesional y crecer dentro de equipos colaborativos orientados a la innovación y el aprendizaje continuo.
+        Estudiante de Ciencia de Datos apasionada por el análisis,
+        procesamiento y visualización de datos. Desarrollo proyectos
+        tecnológicos enfocados en automatización, bases de datos,
+        diseño web y ciberseguridad.
       </p>
-    </section>
 
+      <div class="hero-buttons">
 
-    <section id="proyectos">
-      <h2>Proyectos destacados</h2>
-      <div class="proyecto">
-        <h3>📊 Análisis de datos académicos</h3>
-        <p>Proyecto de exploración y visualización de datos utilizando Python y librerías como Pandas y Matplotlib.</p>
+        <a href="#proyectos" class="btn-primary">
+          Ver Proyectos
+        </a>
+
+        <a href="MI_CV.pdf" class="btn-secondary">
+          Descargar CV
+        </a>
+
       </div>
-      <div class="proyecto">
-        <h3>🖥️ Página personal</h3>
-        <p>Diseño de una página web desde cero utilizando HTML y CSS.</p>
-      </div>
-    </section>
 
-
-    <section id="notion">
-      <h2>Mi espacio de aprendizaje</h2>
-      <div class="notion-grid">
-        <div class="notion-card">
-          <h3>📘 Proceso como Ing. Ciencia de Datos</h3>
-          <p>Notas y proyectos realizados durante mi formación.</p>
-          <a href="https://ivory-sedum-a9d.notion.site/Mi-Portafolio-Universitario-314062908e798048afabc278086ceca7" target="_blank">Ver en Notion</a>
-        </div>
-      </div>
-    </section>
-
-
-<!-- Sección Contacto -->
-<section id="contacto">
-  <h2>Contacto</h2>
-  <p>📧 Email: <a href="mailto:villaloboscorchowendy@gmail.com">villaloboscorchowendy@gmail.com</a></p>
-  <p>💻 <a href="https://github.com/wvillal2" target="_blank">GitHub</a></p>
-  <p>🔗 <a href="https://www.linkedin.com/in/vanessa-villalobos-corcho-85b7092b7/" target="_blank">LinkedIn</a></p>
-  <p>📘 <a href="https://ivory-sedum-a9d.notion.site/Portafolio-profesional-de-Wendy-Vanessa-V-C-217062908e798078a589c6376cb31056?source=copy_link" target="_blank">Portafolio en Notion</a></p>
-</section>
-
-
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Vanessa Villalobos</p>
     </div>
+
+    <div class="hero-image">
+      <img src="img/perfil.jpg" alt="Foto Vanessa">
+    </div>
+
+  </section>
+
+  <!-- SOBRE MI -->
+  <section id="sobre" class="sobre">
+
+    <div class="section-title">
+      <h2>Sobre mí</h2>
+    </div>
+
+    <div class="sobre-container">
+
+      <div class="sobre-text">
+
+        <p>
+          Soy Wendy Vanessa Villalobos Corcho, estudiante de Ciencia
+          de Datos en la Corporación Universitaria Iberoamericana.
+        </p>
+
+        <p>
+          Complemento mi formación con capacitaciones del SENA y una
+          ruta de aprendizaje en ciberseguridad ofrecida por Cisco.
+        </p>
+
+        <p>
+          Mi enfoque principal está en el análisis de datos,
+          visualización, programación con Python y soluciones
+          tecnológicas aplicadas a entornos reales.
+        </p>
+
+        <p>
+          Actualmente desarrollo proyectos de análisis de bases de
+          datos, dashboards, páginas web y simulaciones básicas
+          de seguridad informática.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills">
+
+    <div class="section-title">
+      <h2>Habilidades Técnicas</h2>
+    </div>
+
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <i class="fab fa-python"></i>
+        <h3>Python</h3>
+      </div>
+
+      <div class="skill-card">
+        <i class="fas fa-database"></i>
+        <h3>SQL</h3>
+      </div>
+
+      <div class="skill-card">
+        <i class="fas fa-chart-line"></i>
+        <h3>Power BI</h3>
+      </div>
+
+      <div class="skill-card">
+        <i class="fab fa-html5"></i>
+        <h3>HTML5</h3>
+      </div>
+
+      <div class="skill-card">
+        <i class="fab fa-css3-alt"></i>
+        <h3>CSS3</h3>
+      </div>
+
+      <div class="skill-card">
+        <i class="fab fa-github"></i>
+        <h3>GitHub</h3>
+      </div>
+
+      <div class="skill-card">
+        <i class="fas fa-shield-alt"></i>
+        <h3>Wireshark</h3>
+      </div>
+
+      <div class="skill-card">
+        <i class="fas fa-network-wired"></i>
+        <h3>Nmap</h3>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PROYECTOS -->
+  <section id="proyectos" class="proyectos">
+
+    <div class="section-title">
+      <h2>Proyectos Destacados</h2>
+    </div>
+
+    <div class="proyectos-grid">
+
+      <!-- PROYECTO -->
+      <div class="project-card">
+
+        <div class="project-info">
+
+          <h3>🌱 Del Campo Company</h3>
+
+          <p>
+            Plataforma web desarrollada para una empresa agrícola
+            enfocada en productos de Urabá Antioquia.
+          </p>
+          <p> En proceso de mejoras</p>
+
+          <div class="tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+          <a href="https://del-campo-company.vercel.app/" target="_blank">
+            Ver Proyecto
+          </a>
+
+        </div>
+
+      </div>
+
+      <!-- PROYECTO -->
+      <div class="project-card">
+
+        <div class="project-info">
+
+          <h3>📊 Dashboard de Datos</h3>
+
+          <p>
+            Creación de dashboards y visualizaciones para análisis
+            de información utilizando Power BI y Python.
+          </p>
+
+          <div class="tech">
+            <span>Power BI</span>
+            <span>Python</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- PROYECTO -->
+      <div class="project-card">
+
+        <div class="project-info">
+
+          <h3>🐍 Análisis de Datos Académicos</h3>
+
+          <p>
+            Exploración, limpieza y visualización de datos utilizando
+            Pandas, NumPy y Matplotlib.
+          </p>
+
+          <div class="tech">
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>Matplotlib</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- PROYECTO -->
+      <div class="project-card">
+
+        <div class="project-info">
+
+          <h3>🔐 Simulación de Ciberseguridad</h3>
+
+          <p>
+            Prácticas de análisis de red y monitoreo utilizando
+            Wireshark y Nmap.
+          </p>
+
+          <div class="tech">
+            <span>Wireshark</span>
+            <span>Nmap</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CERTIFICADOS -->
+  <section id="certificados" class="certificados">
+
+    <div class="section-title">
+      <h2>Certificaciones</h2>
+    </div>
+
+    <div class="certificados-grid">
+
+        <div class="cert-card">
+        <i class="fas fa-graduation-cap"></i>
+        <h3>Ingienería en Ciencias de datos</h3>
+        <p>Corporación Universidad Iberoamericana </p>
+        <p>5° Semestre</p>
+        <p>2024 - Presente</p>
+      </div>
+
+      <div class="cert-card">
+        <i class="fas fa-graduation-cap"></i>
+        <h3>Formación SENA</h3>
+        <p>Análisis de datos y tecnología</p>
+        <p>2025 - presente</p>
+      </div>
+
+
+      <div class="cert-card">
+        <i class="fas fa-certificate"></i>
+        <h3>Cisco Cybersecurity</h3>
+        <p>Cisco Networking Academy</p>
+        <p>2026 - Presente</p>
+      </div>
+      
+    </div>
+
+  </section>
+
+  <!-- GITHUB -->
+  <section class="github">
+
+    <div class="section-title">
+      <h2>GitHub Stats</h2>
+    </div>
+
+    <div class="github-stats">
+
+      <img src="https://github-readme-stats.vercel.app/api?username=wvillal2&show_icons=true&theme=tokyonight">
+
+    </div>
+
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="contacto">
+
+    <div class="section-title">
+      <h2>Contacto</h2>
+    </div>
+
+    <div class="contact-container">
+
+      <a href="mailto:villaloboscorchowendy@gmail.com">
+        <i class="fas fa-envelope"></i>
+        Email
+      </a>
+
+      <a href="https://github.com/wvillal2" target="_blank">
+        <i class="fab fa-github"></i>
+        GitHub
+      </a>
+
+      <a href="https://www.linkedin.com/in/vanessa-villalobos-corcho-85b7092b7/" target="_blank">
+        <i class="fab fa-linkedin"></i>
+        LinkedIn
+      </a>
+
+      <a href="https://ivory-sedum-a9d.notion.site/Portafolio-profesional-de-Wendy-Vanessa-V-C-217062908e798078a589c6376cb31056?source=copy_link" target="_blank">
+        <i class="fas fa-book"></i>
+        Notion
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+
+    <p>
+      © 2026 Wendy Vanessa Villalobos Corcho
+    </p>
+
   </footer>
+
 </body>
 </html>
-
-
