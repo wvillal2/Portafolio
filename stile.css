@@ -401,6 +401,38 @@ section{
   margin-bottom:15px;
 }
 
+.tech{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    margin-top:15px;
+}
+
+.tech a{
+    text-decoration:none;
+    background:#2563eb;
+    color:white;
+    padding:8px 18px;
+    border-radius:25px;
+    font-size:14px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.tech a:hover{
+    background:#1d4ed8;
+    transform:translateY(-3px);
+}
+
+.tech span{
+    background:#1e293b;
+    color:white;
+    padding:6px 14px;
+    border-radius:20px;
+    font-size:14px;
+}
+
+
 /* =========================
    GITHUB
 ========================= */
@@ -531,3 +563,5 @@ footer p{
     flex-direction:column;
   }
 }
+
+
